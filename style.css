@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section > div {
+    outline: 2px solid black;
+    padding: 20px;
+}
+
+section > div div {
+    padding: 10px;
+}
+
+section div div div:nth-child(1) input {
+    width: 250px;
+    height: 30px;
+}
+
+section div div:nth-child(2) input {
+    width: 70px;
+    height: 30px;
+}
+
+#result {
+    color: black;
+    font-size: normal;
+    height: 50px;
+}
